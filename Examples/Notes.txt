@@ -1,0 +1,69 @@
+visual basic:
+
+to define a variable you must run this code first
+dim <variable name> as <type>
+
+variable is any name that you want for you variable.
+type is, well type.
+string
+integer
+double
+single
+
+when showing the variable as a string use: <variable>.tostring
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+the pull out just a portion of a string use:
+<variable name>.substring(<start position>,<length to grab>)
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+   Dim oExcel As Object
+   Dim oBook As Object
+   Dim oSheet As Object
+
+   'Start a new workbook in Excel
+   Set oExcel = CreateObject("Excel.Application")
+   Set oBook = oExcel.Workbooks.Add
+
+
+   'Add data to cells of the first worksheet in the new workbook
+   Set oSheet = oBook.Worksheets(1)
+   oSheet.Range("A1").Value = "Last Name"
+   oSheet.Range("B1").Value = "First Name"
+   oSheet.Range("A1:B1").Font.Bold = True
+   oSheet.Range("A2").Value = "Doe"
+   oSheet.Range("B2").Value = "John"
+
+   'Save the Workbook and Quit Excel
+   oBook.SaveAs "C:\Book1.xls"
+   oExcel.Quit
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^ 
+ MessageBox.Show("Your time sheet has been saved in you personal folder: Y:\TimeSheet.csv", "Save Location")
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Option Explicit
+'Add a reference to MS Excel xx.0 Object Library
+Private Sub Command1_Click()
+    Dim oApp As Excel.Application
+    Dim oWB As Excel.Workbook
+    
+    'Create an Excel instalce.
+    Set oApp = New Excel.Application
+    'Open the desired workbook
+    Set oWB = oApp.Workbooks.Open(FileName:="C:\test.xls")
+    'Do any modifications to the workbook.
+    '...
+    'Save the xls file
+    oWB.SaveAs FileName:="C:\test.xls"
+    'close and clean up resources
+    oWB.Close SaveChanges:=False
+    Set oWB = Nothing
+    oApp.Quit
+    Set oApp = Nothing
+End Sub 
+

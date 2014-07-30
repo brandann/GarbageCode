@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DirectoryTextBuilder", "DirectoryTextBuilder\DirectoryTextBuilder.vbproj", "{DCA8B9F1-59ED-45F3-817E-2A13121A50A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA8B9F1-59ED-45F3-817E-2A13121A50A4}.Debug|x86.ActiveCfg = Debug|x86
+		{DCA8B9F1-59ED-45F3-817E-2A13121A50A4}.Debug|x86.Build.0 = Debug|x86
+		{DCA8B9F1-59ED-45F3-817E-2A13121A50A4}.Release|x86.ActiveCfg = Release|x86
+		{DCA8B9F1-59ED-45F3-817E-2A13121A50A4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
