@@ -1,0 +1,37 @@
+Panels,PacClad
+Panels,Aep-Span
+Panels,Centria
+Panels,Kingspan
+Panels,NorthClad
+Panels,Northshore
+Panels,Apolic
+Panels,Citadel
+Panels,None
+
+PacClad,HWPC
+
+Aep-Span,HR-36
+Aep-Span,Box-Rib
+Aep-Span,Reversed Box-Rib
+Aep-Span,Reversed HR-36
+
+Flashing,Coping
+Flashing,Base
+Flashing,Head
+Flashing,Jamb
+Flashing,Sill
+Flashing,Termination
+Flashing,Inside Corner
+Flashing,Outside Corner
+
+Component,Louver
+Component,Window
+Component,Door
+Component,Brick
+Component,Stucco
+Component,EIFS
+Component,CMU
+Component,Wall Panel - Others
+Component,GWB
+Component,Soffit
+
