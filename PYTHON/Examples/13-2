@@ -1,0 +1,6 @@
+def printmyaddress(myname):
+    print myname
+    print "10305 Dakota way"
+    print "Everett, WA, 98204"
+    print
+printmyaddress("Brandan Haertel")
