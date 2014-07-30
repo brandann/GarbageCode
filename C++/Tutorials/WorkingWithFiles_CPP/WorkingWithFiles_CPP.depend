@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1368202325 source:c:\users\brandan.nssm\desktop\workingwithfiles_cpp\main.cpp
+	<iostream>
+	<fstream>
+

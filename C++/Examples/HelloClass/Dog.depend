@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1378918672 source:c:\users\brandan.nssm\desktop\dog\helloclass.cpp
+	"HelloClass.h"
+	<iostream>
+
+1378918720 c:\users\brandan.nssm\desktop\dog\helloclass.h
+	<iostream>
+
+1378918738 source:c:\users\brandan.nssm\desktop\dog\main.cpp
+	<iostream>
+	"helloclass.h"
+

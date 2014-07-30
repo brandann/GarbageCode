@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1380583510 source:/home/brandan/Dropbox/Brandan/Programming/Projects/Cpp/Weight/main.cpp
+	<iostream>
+	"Weight.h"
+
+1380583878 /home/brandan/Dropbox/Brandan/Programming/Projects/Cpp/Weight/Weight.h
+	<iostream>
+
+1380583878 source:/home/brandan/Dropbox/Brandan/Programming/Projects/Cpp/Weight/Weight.cpp
+	"Weight.h"
+
+1380649413 source:c:\users\brandan.nssm\dropbox\brandan\programming\projects\cpp\weight\main.cpp
+	<iostream>
+	"Weight.h"
+
+1380649329 c:\users\brandan.nssm\dropbox\brandan\programming\projects\cpp\weight\weight.h
+	<iostream>
+
+1380649716 source:c:\users\brandan.nssm\dropbox\brandan\programming\projects\cpp\weight\weight.cpp
+	"Weight.h"
+	<iostream>
+

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Weight", "Weight\Weight.vcxproj", "{089A2C12-E58B-44A8-954D-B1DA2FAACE3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089A2C12-E58B-44A8-954D-B1DA2FAACE3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{089A2C12-E58B-44A8-954D-B1DA2FAACE3C}.Debug|Win32.Build.0 = Debug|Win32
+		{089A2C12-E58B-44A8-954D-B1DA2FAACE3C}.Release|Win32.ActiveCfg = Release|Win32
+		{089A2C12-E58B-44A8-954D-B1DA2FAACE3C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

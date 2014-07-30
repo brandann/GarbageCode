@@ -1,0 +1,6 @@
+Meth -55
+Juice +45
+Leaf 0
+DirtyNeedle -99
+Candy +3
+Hat 0

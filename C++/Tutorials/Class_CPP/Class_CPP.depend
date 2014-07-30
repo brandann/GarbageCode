@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1368025114 source:c:\users\brandan.nssm\dropbox\brandan\programming\projects\class_cpp\burrito.cpp
+	"Burrito.h"
+	<iostream>
+
+1368024720 c:\users\brandan.nssm\dropbox\brandan\programming\projects\class_cpp\burrito.h
+
+1368033684 source:c:\users\brandan.nssm\dropbox\brandan\programming\projects\class_cpp\main.cpp
+	<iostream>
+	"Burrito.h"
+	<cmath>
+	<cstdlib>
+	<ctime>
+

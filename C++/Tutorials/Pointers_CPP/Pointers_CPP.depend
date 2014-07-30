@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1368117641 source:c:\users\brandan.nssm\desktop\pointers_cpp\main.cpp
+	<iostream>
+	"Sally.h"
+	"People.h"
+	"Birthday.h"
+
+1368115085 source:c:\users\brandan.nssm\desktop\pointers_cpp\sally.cpp
+	"Sally.h"
+	<iostream>
+
+1368115065 c:\users\brandan.nssm\desktop\pointers_cpp\sally.h
+
+1368117675 source:c:\users\brandan.nssm\desktop\pointers_cpp\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1368117641 c:\users\brandan.nssm\desktop\pointers_cpp\birthday.h
+
+1368117641 c:\users\brandan.nssm\desktop\pointers_cpp\people.h
+	<string>
+	"Birthday.h"
+
